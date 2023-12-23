@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Game Geist</title>
+    <title>Movelight</title>
 
     <link rel="stylesheet" href="/css/main.css">
     <livewire:styles>
@@ -19,13 +19,13 @@
                     </a>
                 </li>
                 <li class="md:ml-16 mt-3 md:mt-0">
-                    <a href="{{ route('movies.index') }}" class="hover:text-gray-300">Games</a>
+                    <a href="{{ route('movies.index') }}" class="hover:text-gray-300">Movies</a>
                 </li>
                 <li class="md:ml-6 mt-3 md:mt-0">
-                    <a href="{{ route('tv.index') }}" class="hover:text-gray-300">TV Shows</a>
+                    <a href="{{ route('tv.index') }}" class="hover:text-gray-300">Series</a>
                 </li>
                 <li class="md:ml-6 mt-3 md:mt-0">
-                    <a href="{{ route('actors.index') }}" class="hover:text-gray-300">About Us</a>
+                    <a href="{{ route('actors.index') }}" class="hover:text-gray-300">Cast</a>
                 </li>
             </ul>
             <div class="flex flex-col md:flex-row items-center">
